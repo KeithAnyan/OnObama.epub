@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<package xmlns="http://www.idpf.org/2007/opf" unique-identifier="BookId" version="2.0">
+  <metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
+    <dc:identifier id="BookId" opf:scheme="UUID">urn:uuid:02046cc8-83cd-4144-af77-2193f478ebfb</dc:identifier>
+    <dc:title>On Obama</dc:title>
+    <dc:creator opf:role="aut">Mencius Moldbug</dc:creator>
+    <dc:language>en</dc:language>
+    <dc:date opf:event="modification">2014-06-30</dc:date>
+    <dc:date opf:event="publication">2008-11-12</dc:date>
+    <dc:contributor opf:role="trc">@jbboehr</dc:contributor>
+    <dc:source>http://moldbuggery.blogspot.com/</dc:source>
+    <dc:source>http://unqualified-reservations.blogspot.com/2008/10/did-barack-obama-go-to-columbia.html</dc:source>
+    <dc:source>http://unqualified-reservations.blogspot.com/2008/10/another-interpretation-of-obama-at.html</dc:source>
+    <dc:source>http://unqualified-reservations.blogspot.com/2008/11/president-obama-with-little-perspective.html</dc:source>
+    <dc:source>http://unqualified-reservations.blogspot.com/2008/11/barack-obama-for-last-time.html</dc:source>
+    <meta content="0.7.4" name="Sigil version" />
+  </metadata>
+  <manifest>
+    <item href="toc.ncx" id="ncx" media-type="application/x-dtbncx+xml" />
+    <item href="Styles/stylesheet.css" id="stylesheet.css" media-type="text/css" />
+    <item href="Fonts/philosopher.ttf" id="philosopher.ttf" media-type="application/x-font-ttf" />
+    <item href="Fonts/philosopher-bold.ttf" id="philosopher-bold.ttf" media-type="application/x-font-ttf" />
+    <item href="Fonts/philosopher-italic.ttf" id="philosopher-italic.ttf" media-type="application/x-font-ttf" />
+    <item href="Fonts/philosopher-italic-bold.ttf" id="philosopher-italic-bold.ttf" media-type="application/x-font-ttf" />
+    <item href="Text/title.html" id="title.html" media-type="application/xhtml+xml" />
+    <item href="Text/another-interpretation-of-obama-at.html" id="another-interpretation-of-obama-at.html" media-type="application/xhtml+xml" />
+    <item href="Text/barack-obama-for-last-time.html" id="barack-obama-for-last-time.html" media-type="application/xhtml+xml" />
+    <item href="Text/did-barack-obama-go-to-columbia.html" id="did-barack-obama-go-to-columbia.html" media-type="application/xhtml+xml" />
+    <item href="Text/president-obama-with-little-perspective.html" id="president-obama-with-little-perspective.html" media-type="application/xhtml+xml" />
+    <item href="Images/newmural-full.jpeg" id="newmural-full.jpeg" media-type="image/jpeg" />
+  </manifest>
+  <spine toc="ncx">
+    <itemref idref="title.html" />
+    <itemref idref="did-barack-obama-go-to-columbia.html" />
+    <itemref idref="another-interpretation-of-obama-at.html" />
+    <itemref idref="president-obama-with-little-perspective.html" />
+    <itemref idref="barack-obama-for-last-time.html" />
+  </spine>
+  <guide>
+    <reference href="Text/title.html" title="Title Page" type="title-page" />
+    <reference href="Text/did-barack-obama-go-to-columbia.html" title="Text" type="text" />
+  </guide>
+</package>
